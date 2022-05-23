@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ASM L2</string>
+    <string name="change_text">Change text</string>
+    <string name="enter_text">Enter your text</string>
+    <string name="send_notification">Show toast</string>
+    <string name="textview">Your text will appear here</string>
+</resources>
