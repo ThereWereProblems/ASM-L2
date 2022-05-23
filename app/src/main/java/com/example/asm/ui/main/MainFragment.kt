@@ -59,7 +59,7 @@ class MainFragment : Fragment() {
                     }
                     this@MainFragment.requireActivity().runOnUiThread(java.lang.Runnable {
 
-                        viewModel.resWord = binding.editText.text.toString()
+                        viewModel.changeText(binding.editText.text.toString())
                         updateResText()
                     })
                     inProgerss = false

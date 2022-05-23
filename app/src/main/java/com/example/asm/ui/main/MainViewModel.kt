@@ -6,4 +6,8 @@ class MainViewModel : ViewModel() {
 
     var resWord = "Your text will appear here"
 
+    fun changeText(s:String){
+        resWord = s
+    }
+
 }
